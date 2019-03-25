@@ -6,7 +6,7 @@ Network at Tsinghua University has so many pretty good features, such as static 
 
 There are more reasons for using a jump server in tsinghua network. One day, my friend Bowen, told me he had to go to his lab at 11pm, just for checking his running experiments on the computation server. I was so confused why he did't connect to his server remotely at dormitory, and he told me that's because the computation servers in his lab only support connections from LAN.
 
-Bowen has to leave his comfortable bed, put down his favorite game *Srike of Kings* and go into the cold winter night of Beijing every time he would like to check his experiments. What he need is to use his working computer, which is in the same LAN as his computation server, to jump to his server. However, in most buildings, tsinghua network needs a website-based log-in after you connect to it, and you will log out automatically if you have been online for too long or you have exceeded the maximum online number of your account. Once you log out, the only way to re-login is to open the authentication website and type in your username and passport. To help Bowen get more time for watching videos on *Bilibili* and playing *Srike of Kings*, I wrote this script for checking Internet connection, and log in automantically once you log out of tsinghua network .
+Bowen has to leave his comfortable bed, put down his favorite game *Srike of Kings* and go into the cold winter night of Beijing every time he would like to check his experiments. What he need is to use his working computer, which is in the same LAN as his computation server, to jump to his server. However, in most buildings, tsinghua network needs a website-based log-in after you connect to it, and you will log out automatically if you have been online for too long or you have exceeded the maximum online number of your account. Once you log out, the only way to re-login is to open the authentication website and type in your username and password. To help Bowen get more time for watching videos on *Bilibili* and playing *Srike of Kings*, I wrote this script for checking Internet connection, and log in automantically once you log out of tsinghua network .
 
 ## Requirments
 ### Python
@@ -36,7 +36,7 @@ Note that you can add the driver to your \$PATH\$, or specify the path of your d
 
 ## Test
 
-I have tested the script on macOS Sierra 10.12, with Python 3.7.0. Please open issues if you find any bugs.
+I have tested the script on macOS Sierra 10.12, with Python 3.7.0, Chrome 73.0.3683.86 and Chromedriver 2.46. Please open issues if you find any bugs.
 
 ## License
 
